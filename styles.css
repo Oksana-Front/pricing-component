@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body,
+h1,
+h3,
+p {
+  margin: 0;
+}
+button {
+  padding: 0;
+  border: none;
+  border-color: transparent;
+}
+.square {
+  border-radius: 8px;
+  width: 920px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  text-align: left;
+}
+.sedans {
+  background: #e28625;
+}
+.square p {
+  width: 212px;
+  height: 125px;
+  font-size: 15px;
+  line-height: 167%;
+  color: #fff;
+  margin-bottom: 83px;
+  opacity: 0.75;
+}
+.lexend-deca {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.square h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.kolo {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 35px;
+  background: rgba(0, 0, 0, 0.2);
+  mix-blend-mode: normal;
+}
+.sedans,
+.suvs,
+.luxury {
+  border-radius: 8px 0 0 8px;
+  padding: 48px 47.5px 48px 47.5px;
+}
+.sedans-button {
+  color: #e28625;
+}
+.sedans-button:hover {
+  color: #fff;
+  background-color: #e28625;
+}
+.suvs {
+  border-radius: 0;
+  background: #006971;
+}
+button {
+  border: 1px solid #ffffff;
+  transition: background-color 0.5s ease;
+  width: 146px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  background-color: #fff;
+  padding: 11px 0 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.suvs-button {
+  color: #006971;
+}
+
+.suvs-button:hover {
+  color: #fff;
+  background-color: #006971;
+}
+.luxury {
+  background: #004140;
+  border-radius: 0 8px 8px 0;
+}
+.luxury-button {
+  color: #004140;
+}
+.luxury-button:hover {
+  color: #fff;
+  background-color: #004140;
+}
+.square .sedans img {
+  position: relative;
+  top: 13px;
+  left: 20px;
+}
+.square .suvs img {
+  position: relative;
+  top: 9px;
+  left: 20px;
+}
+.square .luxury img {
+  position: relative;
+  top: 10px;
+  left: 19px;
+}
